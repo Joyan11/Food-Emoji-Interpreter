@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #34495e;
+  color: white;
+  font-family: "Lato", sans-serif;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+.heading {
+  text-align: center;
+  padding: 1.2rem;
+  /* font-weight: 400; */
+  text-transform: uppercase;
+}
+
+.list-container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.input-box {
+  text-align: center;
+  padding: 0.5rem;
+  width: 250px;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+}
+
+.output {
+  padding: 1.5rem;
+  font-size: 1.3rem;
+}
+
+span {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
+  transition: transform 0.1s;
+}
+
+span:hover {
+  transform: scale(1.5);
+}
+
+@media only screen and (max-width: 480px) {
+  .heading {
+    line-height: 3rem;
+  }
+}
